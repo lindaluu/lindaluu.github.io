@@ -1,0 +1,258 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Macaulay Honors College Data Visualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+    
+    <style type="text/css">
+      /* Sticky footer styles
+      -------------------------------------------------- */
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+      .container {
+        width: auto;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+      
+      html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+#map_canvas img,
+.google-maps img {
+  max-width: none;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+@media print {
+  * {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+body {
+  margin: 20;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+iframe {
+display:block;
+width: 800px;
+ margin: 0 auto;
+}
+    </style>
+
+    
+  </head>
+
+  <body>
+
+
+    <!-- Part 1: Wrap all page content here -->
+<div id="wrap">
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>English Language Learners</h1>
+          <h2>Top 12 Origins of Students with Interrupted Education (2013-2014)</h2>
+          <hr>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id elit id turpis congue fermentum id a felis. In rhoncus velit ac enim congue, et dictum nunc luctus. Suspendisse pharetra at nulla at eleifend. Donec ultrices convallis placerat. Duis a dolor a sem dignissim vestibulum hendrerit vitae ante. Duis a arcu ac purus rhoncus venenatis congue nec lacus. Etiam nec ullamcorper lectus, sed feugiat purus.
+</p>
+<p>
+  <iframe width='800' height='520' frameborder='0' src='https://russellchuncuny.cartodb.com/viz/fd5243d4-be80-11e3-b30d-0edbca4b5057/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  Suspendisse pharetra at nulla at eleifend. Donec ultrices convallis placerat. Duis a dolor a sem dignissim vestibulum hendrerit vitae ante. Duis a arcu ac purus rhoncus venenatis congue nec lacus. Etiam nec ullamcorper lectus, sed feugiat purus.
+<svg id="chart" width="1200" height="676" style="font-size: 14px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect id="ground" width="600" height="338" style="fill: rgb(255, 255, 255); stroke: none;"/><rect id="plotArea" width="600" height="338" style="fill: none; stroke: none;"/><g class="axis yAxis" id="rightAxis" transform="translate(10,0)"><g transform="translate(0,288)" style="opacity: 1;"><line class="tick" x2="580" y2="0" stroke="#E6E6E6" style="fill: none; shape-rendering: crispEdges;"/><text x="580" y="-9" dy=".32em" text-anchor="end" fill="#666666" style="font-family: Cutive, Helvetica, sans-serif;">3</text></g><g transform="translate(0,201.33854166666663)" style="opacity: 1;"><line class="tick" x2="580" y2="0" stroke="#E6E6E6" style="fill: none; shape-rendering: crispEdges;"/><text x="580" y="-9" dy=".32em" text-anchor="end" fill="#666666" style="font-family: Cutive, Helvetica, sans-serif;">10</text></g><g transform="translate(0,114.67708333333329)" style="opacity: 1;"><line class="tick" x2="580" y2="0" stroke="#E6E6E6" style="fill: none; shape-rendering: crispEdges;"/><text x="580" y="-9" dy=".32em" text-anchor="end" fill="#666666" style="font-family: Cutive, Helvetica, sans-serif;">16</text></g><g transform="translate(0,28.015625)" class="topAxisItem" style="opacity: 1;"><line class="tick" x2="580" y2="0" stroke="#E6E6E6" style="fill: none; shape-rendering: crispEdges;"/><text x="580" y="-9" dy=".32em" text-anchor="end" fill="#666666" style="font-family: Cutive, Helvetica, sans-serif;">23</text></g><path class="domain" d="M580,28.015625H0V288H580" style="stroke: none; fill: none;"/></g><text y="5" x="10" id="titleLine" style="font-family: Cutive, Helvetica, sans-serif; fill: rgb(102, 102, 102);"/><g class="axis" id="xAxis" transform="translate(0,296)" style="fill: rgb(102, 102, 102);"><g transform="translate(10,0)" style="opacity: 1;"><line class="tick" y2="6" x2="0" style="fill: none; shape-rendering: crispEdges; stroke: rgb(230, 230, 230);"/><text y="9" x="0" dy=".71em" text-anchor="start" style="font-family: Cutive, Helvetica, sans-serif;">juicyness</text></g><g transform="translate(196.43229166666666,0)" style="opacity: 1;"><line class="tick" y2="6" x2="0" style="fill: none; shape-rendering: crispEdges; stroke: rgb(230, 230, 230);"/><text y="9" x="0" dy=".71em" text-anchor="middle" style="font-family: Cutive, Helvetica, sans-serif;">color</text></g><g transform="translate(382.8645833333333,0)" style="opacity: 1;"><line class="tick" y2="6" x2="0" style="fill: none; shape-rendering: crispEdges; stroke: rgb(230, 230, 230);"/><text y="9" x="0" dy=".71em" text-anchor="middle" style="font-family: Cutive, Helvetica, sans-serif;">flavor</text></g><g transform="translate(569.296875,0)" style="opacity: 1;"><line class="tick" y2="6" x2="0" style="fill: none; shape-rendering: crispEdges; stroke: rgb(230, 230, 230);"/><text y="9" x="-78.203125" dy=".71em" text-anchor="start" style="font-family: Cutive, Helvetica, sans-serif;">travelability</text></g><path class="domain" d="M10,6V0H569.296875V6" style="stroke: none; fill: none;"/></g><g id="seriesContainer"><path d="M10,255.501953125L196.43229166666666,194.405625L382.8645833333333,247.702421875L569.296875,277.600625" class="seriesLine seriesGroup" stroke="#BF0053" style="stroke-width: 3px; stroke-linejoin: round; stroke-linecap: round; fill: none;"/><path d="M10,28.015625L196.43229166666666,197.00546874999998L382.8645833333333,158.0078125L569.296875,236.003125" class="seriesLine seriesGroup" stroke="#FF70B0" style="stroke-width: 3px; stroke-linejoin: round; stroke-linecap: round; fill: none;"/><g class="lineSeriesDots seriesGroup" fill="#BF0053"><circle r="4" transform="translate(10,255.501953125)"/><circle r="4" transform="translate(196.4322967529297,194.40562438964844)"/><circle r="4" transform="translate(382.8645935058594,247.70242309570312)"/><circle r="4" transform="translate(569.296875,277.6006164550781)"/></g><g class="lineSeriesDots seriesGroup" fill="#FF70B0"><circle r="4" transform="translate(10,28.015625)"/><circle r="4" transform="translate(196.4322967529297,197.00546264648438)"/><circle r="4" transform="translate(382.8645935058594,158.0078125)"/><circle r="4" transform="translate(569.296875,236.0031280517578)"/></g></g><g id="legendItemContainer"><g class="legendItem" transform="translate(10,5)"><text class="legendLabel" x="12" y="18" fill="#BF0053" style="font-family: Cutive, Helvetica, sans-serif;">apples</text><rect width="10" height="10" x="0" y="8" fill="#BF0053"/></g><g class="legendItem" transform="translate(79.875,5)"><text class="legendLabel" x="12" y="18" fill="#FF70B0" style="font-family: Cutive, Helvetica, sans-serif;">oranges</text><rect width="10" height="10" x="0" y="8" fill="#FF70B0"/></g></g><g id="metaInfo" transform="translate(0,334)"><text text-anchor="end" x="590" class="metaText" style="font-family: Cutive, Helvetica, sans-serif; font-size: 10px; text-rendering: optimizeLegibility; fill: rgb(153, 153, 153);"/><text x="10" class="metaText" style="font-family: Cutive, Helvetica, sans-serif; font-size: 10px; text-rendering: optimizeLegibility; fill: rgb(153, 153, 153);">Made with Chartbuilder</text></g></svg>
+</p>
+
+<p>
+
+    <div id="footer">
+        <p class="muted credit">Source: <a href="http://www.engageny.org"></a>New York State Department of Education, EngageNY.org</a></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  </body>
+</html>
